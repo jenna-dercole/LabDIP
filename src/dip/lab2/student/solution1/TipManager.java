@@ -24,7 +24,7 @@ public class TipManager {
         this.tipCalculator = tipCalculator;
     }
     
-    public void calculateTip(TipCalculator tc) {
-        tipCalculator.getTip();
+    public double calculateTip(TipCalculator tc) {
+        return tipCalculator.getTip();
     }
 }

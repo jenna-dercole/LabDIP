@@ -11,7 +11,7 @@ package dip.lab2.student.solution1;
  */
 public class StartUp {
     public static void main(String[] args) {
-        TipCalculator fstc = new FoodServiceTipCalculator("fair", 234.65);
+        TipCalculator fstc = new FoodServiceTipCalculator('FAIR', 234.65);
         TipManager tp = new TipManager(fstc);
         tp.calculateTip(fstc);
     }
